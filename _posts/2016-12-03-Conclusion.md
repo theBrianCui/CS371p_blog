@@ -15,9 +15,9 @@ A lot of C++ concepts overlap with each other, and it's important to understand 
 
 **Projects**
 
-The projects are all interesting. They require writing the C++ that we've learned in class, no real surprise there. None of them are terribly difficult, though fixing bugs along the way can be stressful. I've already talked about them in prevoius posts, so I won't go into detail on any one specific project.
+The projects are all interesting. They require writing the C++ that we've learned in class, no real surprise there. None of them are terribly difficult, though fixing bugs along the way and adhering exactly to the spec can be stressful. I've already talked about them in prevoius posts, so I won't go into detail on any one specific project.
 
-A large fraction of the project work, perhaps 40%, was actually "overhead" - tasks that weren't directly writing implementation code. This included unit tests, documentation, continuous integration, and other project requirements. Unfortunately, some tools we used often felt more like an added burden to carry than a real benefit. 
+A large fraction of the project work, perhaps 40%, was actually "overhead" - tasks that weren't directly writing implementation code. This included unit tests, documentation, continuous integration, and other project requirements. Unfortunately, some tools we used often felt more like an added burden to carry, rather than a real benefit. 
 
 Travis CI is... nice, I suppose, until the build fails because of some external third-party repository going down. Doxygen is... a novelty, given the scope of our projects. `clang-check` can be unnecessarily annoying at times. Google Test, Valgrind, and Make were all pretty useful though; I'm glad we used those.
 
